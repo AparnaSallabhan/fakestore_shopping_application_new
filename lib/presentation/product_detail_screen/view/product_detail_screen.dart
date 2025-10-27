@@ -97,7 +97,7 @@ class ProductDetailScreen extends ConsumerWidget {
                 ),
 
                 Positioned(
-                  bottom: 10,
+                  bottom: 20,
                   left: 10,
                   right: 10,
                   child: InkWell(
