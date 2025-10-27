@@ -96,11 +96,4 @@ class CartScreenStateNotifier extends StateNotifier<CartScreenState> {
       state = state.copyWith(items: [...state.items]);
     }
   }
-
-  // double get totalPrice {
-  //   return state.items.fold(
-  //     0,
-  //     (sum, item) => sum + (item.price! * item.quantity),
-  //   );
-  // }
 }
