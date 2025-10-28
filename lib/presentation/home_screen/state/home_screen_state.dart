@@ -13,12 +13,12 @@ class HomeScreenState {
 
   HomeScreenState copyWith({
     bool? isLoading,
-    List<ProductModel>? products,
+    List<ProductModel>? items,
     String? errorMsg,
   }) {
     return HomeScreenState(
       isLoading: isLoading ?? this.isLoading,
-      products: products ?? this.products,
+      products: items ?? this.products,
       errorMsg: errorMsg ?? this.errorMsg,
     );
   }
